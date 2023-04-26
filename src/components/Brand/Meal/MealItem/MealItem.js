@@ -9,11 +9,11 @@ export default function MealItem({ id, name, description, price }) {
     ctx.onAddItem({ name, id, amount, price });
   };
   return (
-    <li key={id} className={classes.meals}>
+    <li key={id} className={classes.meal}>
       <div>
         <h3>{name}</h3>
         <div className={classes.description}>{description}</div>
-        <div className={classes.price}>{price} Rs</div>
+        <div className={classes.price}>{price} $</div>
       </div>
       <MealItemForm onAddToCart={addToCartHandler}></MealItemForm>
     </li>

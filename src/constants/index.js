@@ -1,26 +1,26 @@
 export const meals = [
   {
     id: "m1",
-    name: "Poha",
-    description: "Easily digestible form of raw rice is very popular across India",
+    name: "Sushi",
+    description: "Finest fish and veggies",
     price: 22.99,
   },
   {
     id: "m2",
-    name: "Vada Pav",
-    description: "A vegetarian fast food dish native to the Indian state of Maharashtra.",
+    name: "Schnitzel",
+    description: "A german specialty!",
     price: 16.5,
   },
   {
     id: "m3",
-    name: "Masala Dosa",
-    description: "made from rice, lentils, Urad dal, Chana dal, fenugreek, puffed rice, Toor dal, dry red chilli and served with potato curry, chutneys, and sambar.",
+    name: "Barbecue Burger",
+    description: "American, raw, meaty",
     price: 12.99,
   },
   {
     id: "m4",
-    name: "Samosa",
-    description: "a small triangular pastry filled with spiced meat or vegetables and fried in ghee or oil",
+    name: "Green Bowl",
+    description: "Healthy...and green...",
     price: 18.99,
   },
 ];

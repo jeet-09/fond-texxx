@@ -1,5 +1,5 @@
 import React from "react";
-import { Header, MealsSummary, MealsList, Choose_canteen , Cart } from "@components";
+import { Header, MealsSummary, MealsList, Cart } from "@components";
 
 
 
@@ -10,7 +10,6 @@ function Home() {
        <Cart />
       <Header></Header>
       <MealsSummary></MealsSummary>
-       <Choose_canteen></Choose_canteen>
       <MealsList></MealsList>
    </>
 
