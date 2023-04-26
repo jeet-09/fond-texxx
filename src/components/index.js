@@ -9,3 +9,5 @@ export { default as HeaderCartButton } from "./Brand/Header/HeaderCartButton";
 export { default as Modal } from "./UI/Modal/Modal";
 export { default as Cart } from "./Brand/Cart/Cart";
 export { default as CartItem } from "./Brand/Cart/CartItem";
+export { default as Choose_canteen } from "./Brand/Meal/Choose_canteen/Choose_canteen";
+

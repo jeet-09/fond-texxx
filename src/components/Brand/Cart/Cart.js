@@ -28,7 +28,7 @@ ctx.onClose()
       </ul>
       <div className={classes.total}>
         <label>Final Total </label>
-        <label>{ctx.totalAmount.toFixed(2)} $</label>
+        <label>{ctx.totalAmount.toFixed(2)} Rs</label>
       </div>
       <div className={classes.actions}>
         <button className={classes["button--alt"]} onClick={ctx.onClose}>
